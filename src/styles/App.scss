@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Quattrocento+Sans:wght@400;700&display=swap");
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  max-width: 75%;
+  padding: 2rem;
+  height: 90vh;
+
+  @media (min-width: 609px) {
+    max-width: 55%;
+  }
+
+  .phrase-container {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .button-container {
+    font-family: "Fanwood Text", serif;
+    align-self: center;
+    margin: 0.9rem 0;
+
+    .btn {
+      font-size: 1rem;
+      background-color: #edd033;
+      font-weight: 700;
+      border: none;
+      border-radius: 0.5rem;
+      padding: 0.8rem 1.2rem;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #b5a02d;
+
+
+      }
+    }
+  }
+}
